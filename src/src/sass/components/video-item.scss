@@ -1,0 +1,20 @@
+.video-item{
+    padding: 3px 5px;
+    display: flex;
+    align-items: center;
+    &:not(:last-child){
+        border-bottom: thin solid #ececec;
+    }
+    
+    &__img{
+        width: 107px;
+        height: 60px;
+        border-radius: 3px;
+    }
+    
+    &__title{
+        padding: 3px ;
+        font-size: 1.6rem;
+        
+    }
+}

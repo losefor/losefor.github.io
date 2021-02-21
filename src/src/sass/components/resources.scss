@@ -1,0 +1,14 @@
+.resources{
+    margin: 10px 0;
+    &__header{
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+    }
+    &__btn{
+        font-size: 1.4rem;
+        padding: 3px 5px;
+        background-color: rgb(241, 241, 241);
+        margin: 0px 3px;
+        border-radius: 3px;
+    }
+}

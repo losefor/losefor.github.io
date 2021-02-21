@@ -1,0 +1,18 @@
+.comment {
+  background-color: rgba(0, 0, 0, 0.008);
+  box-shadow: rgb(233, 233, 233) 0 0 5px 0px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.comment__name {
+  margin:0;
+  font-size: 1.6rem;
+  padding-bottom: 5px;
+}
+
+.comment__text {
+  font-size: 1.6rem;
+  margin: 0;
+}
+

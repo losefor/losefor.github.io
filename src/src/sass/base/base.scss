@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 62.5%;
+  font-family: "Tajawal", sans-serif;
+  // to prevent selecting and give premium feeling
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.color--white{
+  color: white !important;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mobile--show {
+  display: none;
+}
+
+.mobile--hide {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .flex--mobile {
+    flex-direction: column;
+  }
+
+  .flex--mobile--revers {
+    flex-direction: column-reverse;
+  }
+
+  .mobile--show {
+    display: flex;
+  }
+
+  .mobile--hide {
+    display: none;
+  }
+}
+
+.hide--700 {
+  display: block;
+}
+.show--700 {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .hide--700 {
+    display: none;
+  }
+  .show--700 {
+    display: block;
+  }
+}
