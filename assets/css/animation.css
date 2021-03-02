@@ -1,0 +1,38 @@
+@keyframes float {
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+    transform: translatey(0px);
+  }
+  50% {
+    /* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+    transform: translatey(-20px);
+  }
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+    transform: translatey(0px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+    opacity: 0;
+  }
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in--left {
+	0% {
+	opacity: 0;
+    transform: translatex(-20px);
+  }
+
+  100% {
+    opacity: 1;
+
+    transform: translatey(0px);
+  }
+}

@@ -1,0 +1,34 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__brand{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+
+.nav__items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+
+.nav__item {
+    text-decoration: none;
+    color: #303030;
+    padding: 5px 10px;
+    border-bottom: thin solid transparent;
+    transition: .3s;
+
+}
+
+.nav__item:hover {
+    border-bottom: thin solid #f1a53e;
+    background-color: rgba(0, 0, 0, 0.02);
+    color: black;
+}

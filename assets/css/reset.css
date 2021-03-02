@@ -1,0 +1,30 @@
+body , html{
+    font-size: 62.6%;
+    margin: 0;
+    font-family: 'Roboto' , sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+.cont{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex--column{
+    flex-direction: column;
+}
+
+
+@media(max-width:80rem){
+    .hide{
+        display: none;
+    }
+}

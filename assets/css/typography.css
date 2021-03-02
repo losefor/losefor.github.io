@@ -1,0 +1,23 @@
+.text--bg{
+    font-size: 4rem;
+}
+
+.text--md{
+    font-size: 2rem;
+}
+
+.text{
+    font-family: 'Roboto' , sans-serif;
+    color: #303030;
+}
+
+
+@media(max-width:80rem){
+    .text--bg{
+        font-size: 3rem;
+    }
+    
+    .text--md{
+        font-size: 1.5rem;
+    }
+}
